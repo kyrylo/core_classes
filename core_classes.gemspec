@@ -11,6 +11,8 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.files        = %w[
     lib/core_classes.rb
+    lib/core_classes/as_set.rb
+    lib/core_classes/stdlib_classes.rb
     VERSION
     README.md
     CHANGELOG.md

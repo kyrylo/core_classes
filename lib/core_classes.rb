@@ -1,10 +1,10 @@
 require 'set'
 
+require 'core_classes/as_set'
+require 'core_classes/stdlib_classes'
+
 module CoreClasses
-  def self.as_set
-    suffix = RUBY_VERSION.split('.').join('')
-    self.__send__("ruby_#{suffix}")
-  end
+  extend AsSet
 
   private
 
